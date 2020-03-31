@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular9-web304-grocery-list-app';
+  title = 'Web 304: Angular';
 }
