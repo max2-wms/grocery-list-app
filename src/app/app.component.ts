@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
-@Component({
+@Component ( {
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: 
+  `<div>
+  <div>My first component</div>
+  <h1> {{pageTitle}}</h1>
+  </div>`
 })
 export class AppComponent {
-  title = 'Web 304: Angular';
+  pageTitle:string = 'My Grocery List Manager'
 }
